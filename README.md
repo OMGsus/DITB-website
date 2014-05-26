@@ -6,8 +6,11 @@ Web-side code for dankinthebank.com.
 <h2>
 Layout
 </h2>
-Every HTML file has a name of [name].html. This is not the format used on the Apache server. The proper name for each file is index.html, although they've been renamed for simplicity. To find the actual directory of the site that uses that html, type it in your address bar as so:
+To see any of the pages in action, such as the index for /play/, simply follow this format:
+www.dankinthebank.com/[name of section]/[optional sub file, you probably won't need this]
 
-<i>www.dankinthebank.com/<b>[nameofHTMLfile without .html on the end]</b>/</i>
+For example, the folder 'play' would be:
+www.dankinthebank.com/play/
 
-For example, donate.html would be located at: <i>www.dankinthebank.com/donate/</i>.
+Folder 'source' would be:
+www.dankinthebank.com/source/
